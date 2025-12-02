@@ -1,0 +1,138 @@
+p{
+    color: black;
+}
+body{
+    background-color: blue;
+}
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+#toggle-theme {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    margin: 20p
+}
+header{
+     background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        background: yellow;
+        padding: 1px;
+        color: white;
+}
+header h1{
+    padding: 20px;
+    color: black;
+}
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.info-card {
+    width: 45%;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.info-card h3 {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.info-card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 60px;
+    gap: 40px; 
+}
+
+.hero img {
+    width: 140px;
+    height: 240px;
+    border-radius: 25%;
+    object-fit: cover;
+    border: 4px solid white; 
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: black; 
+    text-align: center;
+    padding: 20px;
+}
+.conjunto-content {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 50px;
+    height: 500px;
+}
+
+.content {
+    width: 460px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    text-align: center;
+    padding-bottom: 15px;
+    transition: transform 0.2s;
+}
+
+.content:hover {
+    transform: scale(1.05);
+}
+
+.content img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.content a {
+    text-decoration: none;
+    color: #5a2dff; 
+    font-weight: 600;
+}
+
+.content h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.content p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+footer{
+    background-color: yellow;
+    height: 50px;
+    width: 100%;
+    
+}
+footer h1{
+    font-size: 10px;
+    text-align: center;
+    padding: 23px;
+}
